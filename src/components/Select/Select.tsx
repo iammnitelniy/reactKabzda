@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {ItemType} from "../../App";
 import styles from './Select.module.css'
+import {MessagesCounter} from "../ReactMemo";
 
 
 
@@ -43,4 +44,7 @@ export const Select: React.FC<SelectPropsType>  = ({value, onChange, items
         </div>
     );
 };
+
+const Select1 = React.memo(Select)
+
 

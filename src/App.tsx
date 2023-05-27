@@ -7,6 +7,8 @@ import {UnControlledAccordion} from "./components/UnControlledAccordion/UnContro
 import {UnControlledRating} from "./components/UnControlledRating/UnControlledRating";
 import {ControlledOnOff} from "./components/OnOff/ControlledOnOff";
 import {Select} from "./components/Select/Select";
+import {ReactMemo} from "./components/ReactMemo";
+
 
 export type ItemType = {
     title: string
@@ -55,6 +57,7 @@ function App() {
                 setValue(value)}}
 
             />
+            <ReactMemo/>
             {/*<UnControlledRating value={2}/>*/}
             {/*<UnControlledRating value={3}/>*/}
             {/*<UnControlledRating value={4}/>*/}
