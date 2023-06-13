@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {ItemType} from "../../App";
 import styles from './Select.module.css'
-import {MessagesCounter} from "../ReactMemo";
+import {MessagesCounter} from "../UseMemo/ReactMemo";
 
 
 

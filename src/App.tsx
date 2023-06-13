@@ -7,7 +7,12 @@ import {UnControlledAccordion} from "./components/UnControlledAccordion/UnContro
 import {UnControlledRating} from "./components/UnControlledRating/UnControlledRating";
 import {ControlledOnOff} from "./components/OnOff/ControlledOnOff";
 import {Select} from "./components/Select/Select";
-import {ReactMemo} from "./components/ReactMemo";
+import {ReactMemo} from "./components/UseMemo/ReactMemo";
+import {Example} from "./components/UseMemo/UseMemo";
+import {BooksSecret} from "./components/UseCallback/UseCallback";
+import UseState from "./components/UseState/UseState";
+import Book from "./components/UseCallback/Book";
+import UseEffect from "./components/UseEffect/UseEffect";
 
 
 export type ItemType = {
@@ -42,7 +47,7 @@ function App() {
 
        ])
     const [value, setValue] = useState("1")
-
+        const [books, setBooks] = useState(["Biblia", 'Azbuka', 'War and Peace'])
 
     return (
         <div className={"App"}>
@@ -58,6 +63,10 @@ function App() {
 
             />
             <ReactMemo/>
+            <Example/>
+            {/*<BooksSecret books={books}  setBooks={setBooks}/>*/}
+            <UseState/>
+            <UseEffect/>
             {/*<UnControlledRating value={2}/>*/}
             {/*<UnControlledRating value={3}/>*/}
             {/*<UnControlledRating value={4}/>*/}
