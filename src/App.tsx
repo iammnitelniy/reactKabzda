@@ -13,6 +13,7 @@ import {BooksSecret} from "./components/UseCallback/UseCallback";
 import UseState from "./components/UseState/UseState";
 import Book from "./components/UseCallback/Book";
 import UseEffect from "./components/UseEffect/UseEffect";
+import {Clock} from "./components/Clock/Clock";
 
 
 export type ItemType = {
@@ -66,7 +67,7 @@ function App() {
             <Example/>
             {/*<BooksSecret books={books}  setBooks={setBooks}/>*/}
             <UseState/>
-            <UseEffect/>
+            <Clock/>
             {/*<UnControlledRating value={2}/>*/}
             {/*<UnControlledRating value={3}/>*/}
             {/*<UnControlledRating value={4}/>*/}
