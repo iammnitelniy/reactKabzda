@@ -14,6 +14,8 @@ import UseState from "./components/UseState/UseState";
 import Book from "./components/UseCallback/Book";
 import UseEffect from "./components/UseEffect/UseEffect";
 import {Clock} from "./components/Clock/Clock";
+import {ResetEffectExample} from "./components/UseEffect/ResetEffect";
+import {KeysTrackExample} from "./components/UseEffect/KeysTrackExample";
 
 
 export type ItemType = {
@@ -67,7 +69,9 @@ function App() {
             <Example/>
             {/*<BooksSecret books={books}  setBooks={setBooks}/>*/}
             <UseState/>
-            <Clock/>
+            {/*<Clock/>*/}
+            <ResetEffectExample/>
+            <KeysTrackExample />
             {/*<UnControlledRating value={2}/>*/}
             {/*<UnControlledRating value={3}/>*/}
             {/*<UnControlledRating value={4}/>*/}

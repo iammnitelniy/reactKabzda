@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51eeca8b-d30d-4793-89e2-082024a4bbca" name="Changes" comment="-promise start">
-      <change afterPath="$PROJECT_DIR$/src/components/Clock/Clock.tsx" afterDir="false" />
+    <list default="true" id="51eeca8b-d30d-4793-89e2-082024a4bbca" name="Changes" comment="-Clock">
+      <change afterPath="$PROJECT_DIR$/src/components/UseEffect/KeysTrackExample.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UseEffect/ResetEffect.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/promises/promise1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/promises/promise1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UseEffect/UseEffect.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UseEffect/UseEffect.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UseMemo/UseMemo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UseMemo/UseMemo.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +170,8 @@
       <workItem from="1686675580496" duration="71000" />
       <workItem from="1686740471258" duration="419000" />
       <workItem from="1686856237664" duration="2900000" />
-      <workItem from="1687546551383" duration="1457000" />
+      <workItem from="1687546551383" duration="2134000" />
+      <workItem from="1687722388325" duration="4920000" />
     </task>
     <task id="LOCAL-00001" summary="-update">
       <created>1681942198037</created>
@@ -191,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686675640823</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="-Clock">
+      <created>1687549742253</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687549742253</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +211,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="-update" />
     <MESSAGE value="-promise start" />
-    <option name="LAST_COMMIT_MESSAGE" value="-promise start" />
+    <MESSAGE value="-Clock" />
+    <option name="LAST_COMMIT_MESSAGE" value="-Clock" />
   </component>
 </project>
