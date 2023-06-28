@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51eeca8b-d30d-4793-89e2-082024a4bbca" name="Changes" comment="-Clock">
-      <change afterPath="$PROJECT_DIR$/src/components/UseEffect/KeysTrackExample.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UseEffect/ResetEffect.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UseEffect/UseEffect.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UseEffect/UseEffect.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UseMemo/UseMemo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UseMemo/UseMemo.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="51eeca8b-d30d-4793-89e2-082024a4bbca" name="Changes" comment="-Зачистка" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -171,7 +164,7 @@
       <workItem from="1686740471258" duration="419000" />
       <workItem from="1686856237664" duration="2900000" />
       <workItem from="1687546551383" duration="2134000" />
-      <workItem from="1687722388325" duration="4920000" />
+      <workItem from="1687722388325" duration="4945000" />
     </task>
     <task id="LOCAL-00001" summary="-update">
       <created>1681942198037</created>
@@ -201,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687549742253</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="-Зачистка">
+      <created>1687728366226</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1687728366226</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +212,7 @@
     <MESSAGE value="-update" />
     <MESSAGE value="-promise start" />
     <MESSAGE value="-Clock" />
-    <option name="LAST_COMMIT_MESSAGE" value="-Clock" />
+    <MESSAGE value="-Зачистка" />
+    <option name="LAST_COMMIT_MESSAGE" value="-Зачистка" />
   </component>
 </project>
